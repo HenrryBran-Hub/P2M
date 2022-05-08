@@ -1,0 +1,10 @@
+#MOUNT CARNET DE EJEMPLO 201404319
+mount -path=/tmp/d1.dk -name=Part1 #391a
+mount -path=/tmp/d2.dk -name=Part4 #392a
+mount -path=/tmp/d3.dk -name=Part6 #393a
+
+########reporte disk del estado inicial de las particiones
+rep -id=391a -Path=/home/parte1/particiones/d1.jpg -name=disk
+rep -id=392a -Path=/home/parte1/particiones/d2.jpg -name=disk
+rep -id=393a -Path=/home/parte1/particiones/d3.jpg -name=disk
+
