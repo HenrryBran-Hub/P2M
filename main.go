@@ -1977,18 +1977,15 @@ func rep(comando Comando_General) {
 	}
 }
 
-/*
 func mks(nodomount listamount, comando Comando_General) {
 
-}*/
+}
 
 /////////////////////////////////////////////////////////////////////////////////
 //////MAIN
 /////////////////////////////////////////////////////////////////////////////////
 func main() {
 	abcd[0] = 'a'
-	//fmt.Println("Ingresando al Sistema ....")
-	//Seleccion()
-	Analizador([]byte("mount -path=/tmp/d2.dk -name=Part4 #391a"))
-	Analizador([]byte("rep -id=391a -Path=/home/parte1/particiones/d1.jpg -name=disk"))
+	fmt.Println("Ingresando al Sistema ....")
+	Seleccion()
 }
